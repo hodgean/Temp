@@ -4,7 +4,7 @@ library(shinyjs)
 library(shinythemes)
 library(shinydashboard)
 shinyUI(fluidPage(headerPanel(h6("Online EarthQuake Analysis")),
-                  includeCSS("new.css"),
+                 # includeCSS("new.css"),
                   titlePanel(h2('Online EarthQuake Analysis Tool',style="color:#FFFFFF")),
                   navbarPage(title =h3("HOME"),
                              
