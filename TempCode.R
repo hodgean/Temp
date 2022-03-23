@@ -5,7 +5,7 @@ install.packages("shinythemes")
 install.packages("shinydashboard")
 install.packages("tseries")
 install.packages("forecast")
-server=function(input, output, session) {
+server<-function(input, output, session) {
   
   library("tseries")
   library("forecast")
@@ -188,3 +188,4 @@ server=function(input, output, session) {
   })
   
 }
+
