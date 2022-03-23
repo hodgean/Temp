@@ -1,3 +1,10 @@
+install.packages("markdown")
+install.packages("shiny")
+install.packages("shinyjs")
+install.packages("shinythemes")
+install.packages("shinydashboard")
+install.packages("tseries")
+install.packages("forecast")
 server=function(input, output, session) {
   
   library("tseries")
